@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+        }
+          .info{
+        background-color: black;
+        color: white;
+        display: flex;
+        /* flex-wrap: nowrap; */
+        /* justify-content:space-around; */
+        padding: 20px;
+        justify-content: space-between;  
+        align-items: center;
+    }
+    .bookmarksss{
+        display: flex;
+        justify-content: space-between;  
+        color: white;  
+    }
+    .madd{
+        background-color: aliceblue;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1em 1em 0.8em 1em;
+        gap: 10px;
+    }
+    .bookmarkss1{
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+    }
+    .revies{
+        display: flex;
+        /* justify-content: space-around; */
+        width: 100%;
+        /* border: 1px solid red; */
+        background-color: #f8f9fa;
+        padding: 40px;
+    }
+    .main{
+        /* width: 25%; */
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 25%;
+    }
+    .Gender{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 20px;
+    }   
+    .Gender1{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 20px;
+    } 
+    .Gender2{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .Featured{
+        display: flex;
+        justify-content: space-around;
+        /* width: 100%; */
+        /* border: 1px solid green; */
+    }
+    .image{
+        display: flex;
+        justify-content: space-between;
+    }
+    .image img{
+        width: 350px;
+        height: 350px;
+        gap: 10px;
+    }
+    .total{
+        background-color: white;
+    }
+    .fa-star1{
+       text-align: center;
+    }
+    .total1{
+        background-color: white;
+    }
+    .fa-star11{
+        text-align: center;
+    }
+    .total2{
+        background-color: white;
+    }
+    .fa-star12{
+        text-align: center;
+    }
+    .image1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .image1 img{
+       width: 350px;
+       height: 350px;
+       gap: 10px;
+       display: flex;
+    }
+    .lila{
+        background-color: white;
+    }
+    .fa-star111{
+        text-align: center;
+    }
+    .lila1{
+        background-color: white;
+    }
+    .fa-star112{
+        text-align: center;
+    }
+    .lila2{
+        background-color: white;
+    }
+    .fa-star11{
+        text-align: center;
+    }
+    .research{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .research img{
+        width: 350px;
+       height: 350px;
+       gap: 10px;
+       display: flex;
+    }
+    .ram{
+        background-color: white;
+    }
+    .fa-star001{
+        text-align: center;
+    }
+    .ram1{
+        background-color: white;
+    }
+    .fa-star002{
+        text-align: center;
+    }
+    .ram2{
+        background-color: white;
+    }
+    .fa-star003{
+        text-align: center;
+    }
+   .row{
+    display: flex;
+   } 
+   .brands{
+        text-align: center;
+        background-color: aliceblue;
+        height: 300px;
+        margin-top: 55px;
+    }
+    .brands1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main{
+        background-color: #2d343f ; 
+        /* display: flex;
+        justify-content: space-between */
+        margin-top: 20px;
+    }
+    .navigation{
+        display: flex;
+        /* justify-content: space-evenly; */
+        flex-direction: column;
+    }
+    .zay-shop{
+        display: flex;
+        /* justify-content: space-around; */
+        color: white;
+        margin-top: 5em;
+    }
+    .bookmarks2{
+        /* display: flex; */
+    }
+    .para{
+        color: white;
+        /* margin-left: 50px; */
+        padding: 3em;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .madhav{
+        color: white;
+    }
+    .button{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 30px;
+    }
+    .button1 button{
+        padding: 16px;
+        color: black;
+    }
+    .button1 input{
+        padding: 16px;
+    }
+    .footer1{
+        background-color: black;
+        color: white;
+        font-size: 27px;
+       height: fit-content;
+       padding: 10px;
+    }
+    .naid{
+        text-align: center;
+    }
+    .brand{
+        text-align: center;
+        background-color: aliceblue;
+        height: 300px;
+        margin-top: 55px;
+    }
+    .brand1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main{
+        /* background-color: #2d343f !important;  */
+        /* display: flex; */
+        /* justify-content: space-between; */
+        margin-top: 20px;
+    }
+    .navigation{
+        display: flex;
+        /* justify-content: space-evenly; */
+        flex-direction: column;
+    }
+    .zay-shop{
+        display: flex;
+        /* justify-content: space-around; */
+        color: white;
+        margin-top: 5em;
+    }
+    .bookmarks2{
+        /* display: flex; */
+    }
+    .para{
+        color: white;
+        /* margin-left: 50px; */
+        padding: 3em;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .madhav{
+        color: white;
+    }
+    .button{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 30px;
+    }
+    .button1 button{
+        padding: 16px;
+        color: black;
+    }
+    .button1 input{
+        padding: 16px;
+    }
+    .footer1{
+        background-color: black;
+        color: white;
+        font-size: 27px;
+       height: fit-content;
+       padding: 30px;
+    }
+    .side-section{
+        width: 25%;
+        margin-top: 20px;
+    }
+   
+    </style>
+</head>
+<body>
+    <div class="info">
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span style="padding: 1em;">info@company.com</span>
+            <i class="fa-solid fa-phone-flip"></i>
+            <span style="padding: 1em;">010-020-0340</span>
+        </div>
+        <div class="bookmarksss">
+            <i style="padding: 1em;" class="fa-brands fa-facebook-f"></i>
+             <i style="padding: 1em;" class="fa-brands fa-instagram"></i>
+            <i style="padding: 1em;" class="fa-brands fa-twitter"></i>
+            <i style="padding: 1em;" class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+    <div class="madd">
+        <div style="color: green; font-size: 50px;">Zay</div>
+        <div style="row-gap: 10px; font-size: 20px;"><a href="index.html">Home</a></div>
+        <div style="font-size: 20px;"><a href="about.html">About</a></div>
+        <div style="font-size: 20px;"> <a href="shop.html">Shop</a></div>
+        <div style="font-size: 20px;"><a href="contact.html">Contact</a></div>
+        <div class="bookmarkss1">
+            <i style="padding: 1em;" class="fa-solid fa-magnifying-glass"></i>
+            <i style="padding: 1em;" class="fa fa-fw fa-cart-arrow-down text-dark mr-1 "></i>
+            <i style="padding: 1em;" class="fa fa-fw fa-user text-dark mr-3"></i>
+        </div>
+    </div>
+    <div class="revies">
+        <div class="side-section">
+           <h1 style="margin-bottom: 20px;">Categories</h1>
+           <div class="navigation">
+            <div class="Gender">
+              <h2>Gender</h2> 
+              <i style="padding-left: 50px; padding-top: 5px;" class="fa fa-fw fa-chevron-circle-down mt-1"></i>
+            </div>  
+            <div class="Gender1">
+              <h2>Sales</h2>
+              <i style="padding-left: 80px; padding-top: 5px;" class="fa fa-fw fa-chevron-circle-down mt-1"></i>
+            </div>  
+            <div class="Gender2">
+              <h2>Product</h2>
+              <i style="padding-left: 43px; padding-top: 5px;" class="fa fa-fw fa-chevron-circle-down mt-1"></i>
+            </div>  
+           </div>
+        </div>  
+        <div style="width: 75%;">
+            <div class="Featured">
+                <h2>All Men's Women's</h2>
+                <button style="font-size: 30px; width: 400px; height: 40px; background-color: white;">Featured</button>
+            </div>
+            <div class="image">
+                <div class="total">
+                    <img src="shop_01.jpg" alt="Image">
+
+                   <div class="fa-star">
+                      <div class="fa-star01">
+                        <h1>Oupidatat non</h1>
+                        <h4 style="margin-top: 20px;">M/L/X/XL</h4>
+                      </div>
+                      <div class="fa-star1" style="padding: 1em; font-size: 20px;">
+                         <i class="text-warning fa fa-star" style="color: gold;"></i>
+                         <i class="text-warning fa fa-star" style="color: gold;"></i>
+                         <i class="text-warning fa fa-star" style="color: gold;"></i>
+                         <i class="text-muted fa fa-star"></i>
+                         <i class="text-muted fa fa-star"></i>
+
+                         <div class="number1" style="font-size: 25px; padding: 0.8em;">$250.00</div>
+                        </div>     
+                          
+                     </div>   
+                </div>
+                <div class="total1">
+                     <img src="shop_02.jpg" alt="Image">
+
+                     <div class="fa-star1">
+                        <div class="fa-star02">
+                          <h1>Oupidatat non</h1>
+                          <h4 style="margin-top: 20px;">M/L/X/XL</h4>
+                        </div>
+                        <div class="fa-star11" style="padding: 1em; font-size: 20px;">
+                           <i class="text-warning fa fa-star" style="color: gold;"></i>
+                           <i class="text-warning fa fa-star" style="color: gold;"></i>
+                           <i class="text-warning fa fa-star" style="color: gold;"></i>
+                           <i class="text-muted fa fa-star"></i>
+                           <i class="text-muted fa fa-star"></i>
+  
+                           <div class="number2" style="font-size: 25px; padding: 0.8em;">$250.00</div>
+                          </div>     
+                            
+                       </div> 
+                </div>  
+                <div class="total2"> 
+                    <img src="shop_03.jpg" alt="Image">
+
+                    <div class="fa-star">
+                        <div class="fa-star03">
+                          <h1>Oupidatat non</h1>
+                          <h4 style="margin-top: 20px;">M/L/X/XL</h4>
+                        </div>
+                        <div class="fa-star12" style="padding: 1em; font-size: 20px;">
+                           <i class="text-warning fa fa-star" style="color: gold;"></i>
+                           <i class="text-warning fa fa-star" style="color: gold;"></i>
+                           <i class="text-warning fa fa-star" style="color: gold;"></i>
+                           <i class="text-muted fa fa-star"></i>
+                           <i class="text-muted fa fa-star"></i>
+  
+                           <div class="number3" style="font-size: 25px; padding: 0.8em;">$250.00</div>
+                          </div>     
+                            
+                       </div> 
+                </div>   
+            </div>
+            <div class="image1">
+              <div class="lila">
+                  <img src="shop_04.jpg" alt="Image">
+
+                  <div class="fa">
+                      <div class="fa01">
+                         <h1>Oupidatat non</h1>
+                          <h4 style="margin-top: 20px;">M/L/X/XL</h4>
+                        </div>
+                            <div class="fa-star111" style="padding: 1em; font-size: 20px;">
+                                <i class="text-warning fa fa-star" style="color: gold;"></i>
+                                <i class="text-warning fa fa-star" style="color: gold;"></i>
+                                <i class="text-warning fa fa-star" style="color: gold;"></i>
+                                <i class="text-muted fa fa-star"></i>
+                                <i class="text-muted fa fa-star"></i>
+                                <div class="num" style="font-size: 25px; padding: 0.8em;">$250.00</div>
+                            </div>     
+                      
+                    </div>   
+                </div>
+              <div class="lila1">
+                   <img src="shop_05.jpg" alt="Image">
+
+                  <div class="fa1">
+                      <div class="fa02">
+                          <h1>Oupidatat non</h1>
+                          <h4 style="margin-top: 20px;">M/L/X/XL</h4>
+                        </div>
+                           <div class="fa-star112" style="padding: 1em; font-size: 20px;">
+                              <i class="text-warning fa fa-star" style="color: gold;"></i>
+                              <i class="text-warning fa fa-star" style="color: gold;"></i>
+                              <i class="text-warning fa fa-star" style="color: gold;"></i>
+                              <i class="text-muted fa fa-star"></i>
+                              <i class="text-muted fa fa-star"></i>
+
+                              <div class="num1" style="font-size: 25px; padding: 0.8em;">$250.00</div>
+                             </div>     
+                        
+                     </div> 
+              </div>  
+                 <div class="lila2"> 
+                      <img src="shop_06.jpg" alt="Image">
+
+                     <div class="fa2">
+                         <div class="fa03">
+                           <h1>Oupidatat non</h1>
+                           <h4 style="margin-top: 20px;">M/L/X/XL</h4>
+                         </div>
+                         <div class="fa-star113" style="padding: 1em; font-size: 20px;">
+                              <i class="text-warning fa fa-star" style="color: gold;"></i>
+                              <i class="text-warning fa fa-star" style="color: gold;"></i>
+                              <i class="text-warning fa fa-star" style="color: gold;"></i>
+                              <i class="text-muted fa fa-star"></i>
+                              <i class="text-muted fa fa-star"></i>
+                            <div class="num3" style="font-size: 25px; padding: 0.8em;">$250.00</div>
+                         </div>     
+                        
+                      </div> 
+               </div>
+
+            </div> 
+            <div class="research">
+            <div class="ram">
+                <img src="shop_07.jpg" alt="Image">
+
+                <div class="fa">
+                    <div class="fa01">
+                       <h1>Oupidatat non</h1>
+                        <h4 style="margin-top: 20px;">M/L/X/XL</h4>
+                      </div>
+                          <div class="fa-star001" style="padding: 1em; font-size: 20px;">
+                              <i class="text-warning fa fa-star" style="color: gold;"></i>
+                              <i class="text-warning fa fa-star" style="color: gold;"></i>
+                              <i class="text-warning fa fa-star" style="color: gold;"></i>
+                              <i class="text-muted fa fa-star"></i>
+                              <i class="text-muted fa fa-star"></i>
+                              <div class="num" style="font-size: 25px; padding: 0.8em;">$250.00</div>
+                          </div>     
+                    
+                  </div>   
+              </div>
+            <div class="ram1">
+                 <img src="shop_08.jpg" alt="Image">
+
+                <div class="fa1">
+                    <div class="fa02">
+                        <h1>Oupidatat non</h1>
+                        <h4 style="margin-top: 20px;">M/L/X/XL</h4>
+                      </div>
+                         <div class="fa-star002" style="padding: 1em; font-size: 20px;">
+                            <i class="text-warning fa fa-star" style="color: gold;"></i>
+                            <i class="text-warning fa fa-star" style="color: gold;"></i>
+                            <i class="text-warning fa fa-star" style="color: gold;"></i>
+                            <i class="text-muted fa fa-star"></i>
+                            <i class="text-muted fa fa-star"></i>
+
+                            <div class="num1" style="font-size: 25px; padding: 0.8em;">$250.00</div>
+                           </div>     
+                      
+                   </div> 
+            </div>  
+               <div class="ram2"> 
+                    <img src="shop_09.jpg" alt="Image">
+
+                   <div class="fa2">
+                       <div class="fa03">
+                         <h1>Oupidatat non</h1>
+                         <h4 style="margin-top: 20px;">M/L/X/XL</h4>
+                       </div>
+                       <div class="fa-star003" style="padding: 1em; font-size: 20px;">
+                            <i class="text-warning fa fa-star" style="color: gold;"></i>
+                            <i class="text-warning fa fa-star" style="color: gold;"></i>
+                            <i class="text-warning fa fa-star" style="color: gold;"></i>
+                            <i class="text-muted fa fa-star"></i>
+                            <i class="text-muted fa fa-star"></i>
+                          <div class="num3" style="font-size: 25px; padding: 0.8em;">$250.00</div>
+                       </div>     
+                      
+                    </div> 
+             </div>
+
+            </div> 
+            <div class="row">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+        </div> 
+            
+    </div>
+    <div class="brand">
+        <div class="naid">
+            <h1 style="color:black; font-size: 40px;">Our Brands</h1>
+             <p style="color: black; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>
+                 eiusmod Lorem ipsum dolor sit amet.</p>
+         </div>
+             <div class="brand1">
+                <img style="width: 100px;" src="brand_01.png" alt="levis">
+                <img style="width: 100px;" src="brand_02.png" alt="adida">
+               <img style="width: 100px;" src="brand_03.png" alt="Nike">
+                 <img style="width: 100px;" src="brand_04.png" alt="H&M">
+            </div>
+    </div>
+
+  
+        <div class="main">
+            <div style="display:flex; padding: 1em 2em; justify-content: space-between;">
+             <div style="color:white; font-size: 25px; padding: 1em 2em;" >
+                 <div style="color: green; font-size: 42px; border-bottom: 1px solid white; padding: 5px;" >
+                     zay shope
+                 </div>
+                 <div style="padding-top: 25px;">
+                     <i class="fa-solid fa-location-dot"></i>
+                     123 consectetur at ligula 10660 <br>
+                     <i class="fa-solid fa-location-dot"></i>
+                     010-020-0340<br>
+                     <i class="fa-solid fa-envelope"></i>
+                     info@company.com<br>
+                 </div>
+ 
+             </div> 
+                 <div style="color: white;font-size: 25px; padding: 1em 2em;">
+                   <div style=" font-size: 42px;  border-bottom: 1px solid white; padding: 5px;">
+                    Products</div>
+                 <div style="padding-top: 25px;">
+                     <ul style="list-style-type: none; padding: 0;">
+                         <li>Luxury</li>
+                         <li>Sport Wear</li>
+                         <li> Mens Shoes</li>
+                         <li> Womens Shoes</li>
+                         <li> Popular Dress</li>
+                         <li>Gym Accessories</li>
+                         <li> Sport Shoes</li>
+                     </ul>
+                 </div>   
+             </div>
+             <div style="color:white; font-size: 25px; padding: 1em 2em;">
+                 <div style="color: whtite; font-size: 42px;  border-bottom: 1px solid white; padding: 5px;">
+                     further Info
+                 </div>
+                 <div style="padding-top: 25px;">
+                     <ul style="list-style-type: none; padding: 0;">
+                         <li>Home</li>
+                         <li>About Us </li>
+                         <li>Shop Locations </li>
+                         <li> FAQs </li>
+                         <li>Contact</li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+         <hr style="color: lightslategray;">
+ 
+         <div class="button">
+            <div>
+             <i style="padding: 1em;" class="fa-brands fa-facebook-f"></i>
+             <i style="padding: 1em;" class="fa-brands fa-instagram"></i>
+             <i style="padding: 1em;" class="fa-brands fa-twitter"></i>
+             <i style="padding: 1em;" class="fa-brands fa-linkedin"></i>
+            </div>
+               <div class="button1"> 
+                   <input type="email" placeholder="Email address">
+                   <button style="background-color: greenyellow; color: white;">Subscribe</button>
+               </div>
+         </div>
+         <div class="footer1">
+             <p>Copyright © 2021 Company Name | Designed by <span style="text-decoration: underline;">TemplateMo</span> </p>
+         </div>
+     </div>
+     <script src="shop.js"></script>
+</body>
+</html>

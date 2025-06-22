@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<style>
+    .info{
+        background-color: black;
+        color: white;
+        display: flex;
+        /* flex-wrap: nowrap; */
+        /* justify-content:space-around; */
+        padding: 20px;
+        justify-content: space-between;  
+        align-items: center;
+    }
+    .bookmarks{
+        display: flex;
+        justify-content: space-between;    
+    }
+    .mad{
+        background-color: aliceblue;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1em 1em 0.8em 1em;
+        gap: 10px;
+    }
+    .bookmarks1{
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+    }
+    .slider-container {
+            display: flex;
+            align-items: center;
+            background-color: #efefef;
+    }
+    .slider {
+            /* display: flex; */
+            /* justify-content: center; */
+            width:100%;
+            height: 550px;
+        }
+
+        .slider img {
+            width: 80vw; 
+            height: 90vh; 
+            margin-right: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        h1,h3{
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 50px !important;
+            font-weight: 300 !important;
+     
+        }
+        .img{
+            display: flex;
+            justify-content: space-evenly;
+            /* align-items: center; */
+            gap: 20px;
+            /* width: 80%; */
+            /* height: 25%; */
+        }
+        .circle{
+            /* width:33.5vw;
+            height:50vh; */
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid black;
+        }        
+        /* .bi{
+            width:100%;
+            height: 300px;
+            background-image: url("./image2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* border: 1px solid red; */
+    /* } */
+    .shoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .watches{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .accessories{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .page{
+        background-color:#f8f9fa;
+        color: black;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+    .reviews{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .fa-star{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .fa-star1{
+        display: flex;
+        color: lightslategray;
+    } 
+    .number{
+        color:#bcbcbc !important;
+    }
+    .img1{
+        /* display: flex; */
+        background-color: white;
+    }
+    .text-warning{
+          display: flex;
+          justify-content: space-between;
+    }
+    .text-warning1{
+        display: flex;
+        color:lightslategray ;
+    }
+    .number1{
+        color:#bcbcbc !important;
+    }
+    .main{
+        background-color: #2d343f !important; 
+        /* display: flex;
+        justify-content: space-between */
+        margin-top: 20px;
+    }
+    .navigation{
+        display: flex;
+        /* justify-content: space-evenly; */
+        flex-direction: column;
+    }
+    .zay-shop{
+        display: flex;
+        /* justify-content: space-around; */
+        color: white;
+        margin-top: 5em;
+    }
+    .bookmarks2{
+        /* display: flex; */
+    }
+    .para{
+        color: white;
+        /* margin-left: 50px; */
+        padding: 3em;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .madhav{
+        color: white;
+    }
+    .button{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 30px;
+    }
+    .button1 button{
+        padding: 16px;
+        color: black;
+    }
+    .button1 input{
+        padding: 16px;
+    }
+    .footer1{
+        background-color: black;
+        color: white;
+        font-size: 27px;
+       height: fit-content;
+       padding: 10px;
+    }
+</style>
+<body>
+    <div class="info">
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span style="padding: 1em;">info@company.com</span>
+            <i class="fa-solid fa-phone-flip"></i>
+            <span style="padding: 1em;">010-020-0340</span>
+    </div>
+        <div class="bookmarks">
+            <i style="padding: 1em;" class="fa-brands fa-facebook-f"></i>
+            <i style="padding: 1em;" class="fa-brands fa-instagram"></i>
+            <i style="padding: 1em;" class="fa-brands fa-twitter"></i>
+            <i style="padding: 1em;" class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+    <div class="mad">
+        <div style="color: green; font-size: 50px;">Zay</div>
+        <div style="row-gap: 10px; font-size: 20px;"><a href="index.html">Home</a></div>
+        <div style="font-size: 20px;"><a href="about.html">About</a></div>
+        <div style="font-size: 20px;"><a href="shop.html">Shop</a></div>
+        <div style="font-size: 20px;"><a href="contact.html">Contact</a></div>
+        <div class="bookmarks1">
+            <i style="padding: 1em;" class="fa-solid fa-magnifying-glass"></i>
+            <i style="padding: 1em;" class="fa fa-fw fa-cart-arrow-down text-dark mr-1 "></i>
+            <i style="padding: 1em;" class="fa fa-fw fa-user text-dark mr-3"></i>
+        </div>
+    </div>
+    <div class="slider-container">
+        <div class="slider"> 
+              
+                 <p style="font-size:60px; color: green;">Zay eCommerce</p> 
+                 <p style="font-size:38px;"> Tiny and Perfect eCommerce <br>Template  </p>
+                 <p style="font-size: 20px;">zay Shop is an eCommerce HTML5 CSS template <br> with latest version of Bootstrap 5 (beta 1).
+                    This <br> template is 100% free provided by  <span style="color: green; text-decoration: underline;">TemplateMo </span><br> website. <br>
+                    Image credits go to <span style="color: green; text-decoration: underline;">Freepik Stories, <br> Unsplash </span>  <span style="color: green; text-decoration: underline;">Icons 8.</span> </p>
+                   
+        </div>
+        <div> <img src="template-559-zay-shop.jpg" alt="shoes"></div>
+    </div>
+    <h1>Categories of <br>The Month</h1>
+    <h3>Excepteur sint occaecat non proident,sunt in culpa qui <br>
+    officia deserunt mollit anim id est laborum </h3>
+
+    <div class="img">
+          <div class="shoes">
+             <img src="shoes.jpg" alt="shoes" class="circle" width="300px">
+             <h2>Shoes</h2>
+             <button  style="background-color: green; color: white; font-size: 30px; border-radius: 5px; border: none;">Go Shop</button>
+          </div>
+          <div class="watches">
+               <img src="watches.jpg" alt="watches" class="circle" width="300px">
+               <h2>Watches</h2>
+               <button style="background-color: green; color: white; font-size: 30px; border-radius: 5px; border: none;">Go Shop</button>
+          </div>
+          <div class="accessories">
+             <img src="accessories.jpg" alt="accessories" class="circle" width="300px">
+             <h2>Accessories</h2>
+             <button  style="background-color: green; color: white; font-size: 30px; border-radius: 5px; border: none;">Go Shop</button>
+          </div>
+    </div>
+    <div class="page">
+       <h1>Featured Product</h1>
+      <div class="text">  
+         <p>Reprehenderit in voluptate velit esse cillum dolore eu fugiat <br>nulla pariatur.
+         Excepteur sint occaecat cupidatat non proident.</p>
+      </div> 
+         <div class="reviews">
+            <div class="img1">
+                <img style="border-radius: 5px;" width="493px" height="400px" src="gym.jpg" alt="reviews">
+                
+                <div class="fa-star">
+                    <div class="fa-star1" style="padding: 1em; font-size: 20px;">
+                             <i class="text-warning fa fa-star" style="color: gold;"></i>
+                             <i class="text-warning fa fa-star" style="color: gold;"></i>
+                             <i class="text-warning fa fa-star" style="color: gold;"></i>
+                             <i class="text-muted fa fa-star"></i>
+                             <i class="text-muted fa fa-star"></i>
+                    </div>     
+                    <div class="number" style="font-size: 25px; padding: 0.8em;">$240.00</div>
+                   
+                </div>
+                <div style="color: black;">
+                    <h2 style="font-size: 30px; padding: 0.3em;">Gym Weight</h2>
+                    <p style="font-size: 20px; padding: 0.3em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                        Sunt in culpa qui officia deserunt.</p>
+                    <p style="font-size: 20px; padding: o.3em;">Reviews (24)</p>
+                </div>
+            </div>
+            <div class="img1">
+                <img style="border-radius: 5px;" width="475px" height="400px" src="cloud watch.jpg" alt="reviews">
+                <div class="fa-star">
+                    <div class="fa-star1" style="padding: 1em; font-size: 20px;">
+                             <i class="text-warning fa fa-star" style="color: gold;"></i>
+                             <i class="text-warning fa fa-star" style="color: gold;"></i>
+                             <i class="text-warning fa fa-star" style="color: gold;"></i>
+                             <i class="text-muted fa fa-star"></i>
+                             <i class="text-muted fa fa-star"></i>
+                    </div>     
+                    <div class="number" style="font-size: 25px; padding: 0.8em;">$480.00</div>
+                   
+                </div>
+                <div style="color: black;">
+                    <h2 style="font-size: 30px; padding: 0.3em;">Cloud Nike Shoes</h2>
+                    <p style="font-size: 20px; padding: 0.3em;">Aenean gravida dignissim finibus. Nullam ipsum diam, <br>
+                         posuere vitae pharetra sed, commodo ullamcorper.</p>
+                    <p style="font-size: 20px; padding: o.3em;">Reviews (48)</p>
+                </div>
+            </div>
+
+            
+            <div class="img1">
+                <img style="border-radius: 5px;" width="475px" height="400px" src="summeraddises.jpg" alt="reviews">
+                <div class="fa-star">
+                    <div class="fa-star1" style="padding: 1em; font-size: 20px;">
+                             <i class="text-warning fa fa-star" style="color: gold;"></i>
+                             <i class="text-warning fa fa-star" style="color: gold;"></i>
+                             <i class="text-warning fa fa-star" style="color: gold;"></i>
+                             <i class="text-muted fa fa-star" style="color: gold;"></i>
+                             <i class="text-muted fa fa-star" style="color: gold;"></i>
+                    </div>     
+                    <div class="number" style="font-size: 25px; padding: 0.8em;">$360.00</div>
+                   
+                </div>
+                <div style="color: black;">
+                    <h2 style="font-size: 30px; padding: 0.3em;">Summer Addides Shoes</h2>
+                    <p style="font-size: 20px; padding: 0.3em;">Curabitur ac mi sit amet diam luctus porta. <br>
+                         Phasellus pulvinar sagittis diam, <br> et scelerisque ipsum lobortis nec.</p>
+                    <p style="font-size: 20px; padding: o.3em;">Reviews (74)</p>
+                </div>
+            </div>
+         </div>
+    </div>  
+    <div class="main">
+        <div style="display:flex; padding: 1em 2em; justify-content: space-between;">
+            <div style="color:white; font-size: 25px; padding: 1em 2em;" >
+                <div style="color: green; font-size: 42px; border-bottom: 1px solid white; padding: 5px;" >
+                    zay shope
+                </div>
+                <div style="padding-top: 25px;">
+                    <i class="fa-solid fa-location-dot"></i>
+                    123 consectetur at ligula 10660 <br>
+                    <i class="fa-solid fa-location-dot"></i>
+                    010-020-0340<br>
+                    <i class="fa-solid fa-envelope"></i>
+                    info@company.com<br>
+                </div>
+
+            </div>
+            <div style="color: white;font-size: 25px; padding: 1em 2em;">
+                <div style=" font-size: 42px;  border-bottom: 1px solid white; padding: 5px;">
+                   Products
+                </div>
+                <div style="padding-top: 25px;">
+                    <ul style="list-style-type: none; padding: 0;">
+                        <li>Luxury</li>
+                        <li>Sport Wear</li>
+                        <li> Mens Shoes</li>
+                        <li> Womens Shoes</li>
+                        <li> Popular Dress</li>
+                        <li>Gym Accessories</li>
+                        <li> Sport Shoes</li>
+                    </ul>
+                </div>   
+            </div>
+            <div style="color:white; font-size: 25px; padding: 1em 2em;">
+                <div style="color: whtite; font-size: 42px;  border-bottom: 1px solid white; padding: 5px;">
+                    further Info
+                </div>
+                <div style="padding-top: 25px;">
+                    <ul style="list-style-type: none; padding: 0;">
+                        <li>Home</li>
+                        <li>About Us </li>
+                        <li>Shop Locations </li>
+                        <li> FAQs </li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr style="color: lightslategray;">
+
+        <div class="button">
+           <div>
+            <i style="padding: 1em;" class="fa-brands fa-facebook-f"></i>
+            <i style="padding: 1em;" class="fa-brands fa-instagram"></i>
+            <i style="padding: 1em;" class="fa-brands fa-twitter"></i>
+            <i style="padding: 1em;" class="fa-brands fa-linkedin"></i>
+           </div>
+              <div class="button1"> 
+                  <input type="email" placeholder="Email address">
+                  <button style="background-color: greenyellow; color: white;">Subscribe</button>
+              </div>
+        </div>
+        <div class="footer1">
+            <p>Copyright © 2021 Company Name | Designed by <span style="text-decoration: underline;">TemplateMo</span> </p>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
